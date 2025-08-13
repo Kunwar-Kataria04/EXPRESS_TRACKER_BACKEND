@@ -13,7 +13,7 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 
 app.use(
     cors({
-        origin: https://expense-tracker-kunwar.netlify.app/,
+        origin: "https://expense-tracker-kunwar.netlify.app",
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
     })
